@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PBL| Home</title>
+
+    <!-- Bootswatch Darkly -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/darkly/bootstrap.min.css"
+        integrity="sha384-nNK9n28pDUDDgIiIqZ/MiyO3F4/9vsMtReZK39klb/MtkZI3/LtjSjlmyVPS3KdN" crossorigin="anonymous">
+    <!-- Ionicons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule="" src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JCV7SPJ04Y"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-JCV7SPJ04Y');
+    </script>
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="/stylesheets/home.css">
+    <link rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico'>
+</head>
+
+<body class="d-flex flex-column" style="min-height: 100vh">
+    <main class="d-flex container-fluid flex-column" style="min-height: 100vh">
+        <div class="col-md-8 offset-md-1" style="padding-top: 25vh;">
+            <h1>PBL-3 Project &nbsp;<span class="text-success">Realtime Transcription and Translation over Video Call</span></h1>
+
+            <a href="/room/new" class="btn btn-lg btn-outline-success">Create a Room</a>
+        </div>
+        <div class="col-md-4 offset-md-1 mt-3">
+            <label class="form-label lead" for="room-id">Or enter the room ID to join:</label>
+            <input class="form-control mb-3" type="text" id="room-id" name="room-id">
+            <button id="join-room" class="btn btn-lg btn-outline-success">Join Room</button>
+        </div>
+    </main>
+
+
+
+   
+
+    <footer class="footer d-flex align-items-center mt-auto" style="height: 10vh">
+        <div class="container">
+            <h6>Dhruv Shrivastava, Atul Manhas, Pranay Panigrahi and Avinash Shukla 2023 <a href="https://github.com/Mohanito/Monolingo">
+                    <ion-icon name="logo-github"></ion-icon>
+                </a></h6>
+        </div>
+    </footer>
+
+    <script src="/javascripts/home.js"></script>
+
+</body>
+
+</html>

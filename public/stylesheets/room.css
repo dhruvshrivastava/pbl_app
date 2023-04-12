@@ -1,0 +1,58 @@
+#video-list {
+    padding-left: 10px; 
+    padding-right: 0px;
+}
+
+video {
+    background-color: black; 
+    width: 100%; 
+    height: auto;
+}
+
+/* Username - Speaks Language (for every user) */
+.title-overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: relative; 
+    width: 100%;
+}
+
+/* Subtitle for current user only */
+#subtitle {
+    position: absolute; 
+    bottom: 0; 
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#waiting-for-user {
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('https://cdn.pixabay.com/photo/2017/08/06/09/29/bokeh-2590658_1280.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer {
+    min-height: 10vh;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive design for video grids and the message board */
+/* Large >= 992px */
+@media (max-width: 991px) { 
+    #waiting-for-user {
+        height: 332px;
+    }
+}
+
+/* Medium >= 768px */
+@media (max-width: 767px) { 
+    #waiting-for-user {
+        height: 261px;
+    }
+
+    #message-board {
+        height: 261px !important;
+    }
+}
